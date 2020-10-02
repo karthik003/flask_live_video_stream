@@ -4,6 +4,10 @@
     <title>Video Stream</title>
   </head>
   <body>
-  <img src="{{ url_for('video_feed') }}" />
+    <div style="position: relative;">
+      <div style="position: absolute; top: 50%;left: 50%;">
+        <img src="{{ url_for('video_feed') }}" />
+    </div>
+    </div>
   </body>
 </html>
